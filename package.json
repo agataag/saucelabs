@@ -1,0 +1,19 @@
+{
+  "name": "saucedemo-e2e",
+  "version": "1.0.0",
+  "description": "Playwright E2E test framework for https://www.saucedemo.com (TypeScript, Page Object Model)",
+  "private": true,
+  "scripts": {
+    "postinstall": "playwright install chromium",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.58.2",
+    "@types/node": "24.2.0",
+    "dotenv": "^16.6.1",
+    "typescript": "^5.9.3"
+  }
+}
